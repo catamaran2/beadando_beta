@@ -1,0 +1,91 @@
+body {
+    background-color: darkkhaki;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.contentImage {
+    width: 200px;
+}
+
+#banner {
+    height: 160px;
+    background: darkgreen;
+    color: black;
+    font-size: 140px;
+    opacity: 0.9;
+}
+
+#menuBar {
+    font-size: 17px;
+    float: right;
+    background: darkmagenta;
+    margin-top: 50px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    background: darkgray;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    border: 5px solid gray;
+    color: white;
+}
+
+.innerTable {
+    border: 1px double;
+    width: auto;
+}
+
+table {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px darkgreen solid;
+    border-collapse: collapse;
+    background-color: #ffef87;
+}
+
+td {
+    border: 1px darkgreen solid;
+    height: 20px;
+    width: 50%;
+}
+
+.centeredTd {
+    text-align: center;
+}
+
+#booksTable {
+    width: 100%;
+    margin: auto;
+}
+
+#carImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+
+#manufacturerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
